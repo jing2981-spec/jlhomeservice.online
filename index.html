@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Home Service | 建筑工种的 AI 进化</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #001f3f; color: #ffffff; font-family: 'Noto Sans SC', sans-serif; }
+        .blueprint-bg {
+            background-image: linear-gradient(rgba(0, 31, 63, 0.95), rgba(0, 31, 63, 0.95)), url('https://www.transparenttextures.com/patterns/graphy.png');
+            background-attachment: fixed;
+        }
+        .cyan-glow { box-shadow: 0 0 15px rgba(0, 212, 255, 0.4); }
+        .tech-card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(0, 212, 255, 0.2); backdrop-filter: blur(10px); }
+    </style>
+</head>
+<body class="blueprint-bg">
+
+    <nav class="fixed w-full z-50 bg-[#001f3f]/80 backdrop-blur-lg border-b border-cyan-900/50">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="icon_副本.png" alt="JL Logo" class="h-10 w-auto cyan-glow rounded-lg">
+                <span class="text-xl font-bold tracking-tighter">JL <span class="text-cyan-400">HOME SERVICE AI</span></span>
+            </div>
+            <div class="hidden md:flex gap-4">
+                <a href="#" class="px-5 py-2 bg-blue-600 rounded-full text-sm font-bold hover:bg-blue-500 transition">Pro Portal</a>
+                <a href="#" class="px-5 py-2 border border-cyan-400 text-cyan-400 rounded-full text-sm font-bold hover:bg-cyan-400 hover:text-navy transition">Homeowner</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
+                    建筑工种的 <br><span class="text-cyan-400 italic">AI 进化</span>
+                </h1>
+                <p class="text-xl text-blue-100/80 mb-10 leading-relaxed border-l-4 border-cyan-400 pl-6">
+                    为专业人士打造的垂直领域 AI 解决方案。从精准屋顶测量到智能自动化报价，用科技守护匠心。
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button class="px-8 py-4 bg-cyan-400 text-[#001f3f] font-black rounded-lg hover:scale-105 transition shadow-lg shadow-cyan-400/20">我是专业人士</button>
+                    <button class="px-8 py-4 bg-transparent border-2 border-white/20 font-bold rounded-lg hover:bg-white/10 transition">我是房屋业主</button>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute inset-0 bg-cyan-400/10 blur-3xl rounded-full"></div>
+                <img src="https://img.freepik.com/free-vector/isometric-house-blueprints-background_23-2148102603.jpg" alt="Building Blueprint" class="relative rounded-2xl opacity-40 mix-blend-screen border border-cyan-400/30">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="tech-card p-10 rounded-3xl hover:border-cyan-400 transition group">
+                <div class="w-16 h-16 bg-cyan-400/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-cyan-400 transition">
+                    <i class="fa-solid fa-layer-group text-2xl text-cyan-400 group-hover:text-[#001f3f]"></i>
+                </div>
+                <h3 class="text-3xl font-bold mb-4">屋顶专项 (Roofing AI)</h3>
+                <p class="text-blue-100/60 mb-6 text-lg">通过 AI 深度学习处理高清航拍图像，实现零风险、秒级精准测绘。自动识别坡度、障碍物并生成材料清单。</p>
+                <span class="text-cyan-400 font-bold">已上线 →</span>
+            </div>
+
+            <div class="tech-card p-10 rounded-3xl opacity-80 border-dashed">
+                <div class="w-16 h-16 bg-blue-900/50 rounded-2xl flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-microchip text-2xl text-blue-400"></i>
+                </div>
+                <h3 class="text-3xl font-bold mb-4">多工种赋能 (Multi-Trade)</h3>
+                <p class="text-blue-100/60 mb-6 text-lg">即将推出：针对水暖 (Plumbing) 的管道流体模拟系统，以及针对电力 (Electrical) 的智能负载合规性检测助手。</p>
+                <span class="text-gray-500 font-bold italic font-mono uppercase tracking-widest">Incoming...</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 border-t border-white/10 text-center">
+        <p class="text-white/40 text-sm">© 2026 JL HOME SERVICE AI. 全球工匠首选 AI 平台.</p>
+    </footer>
+
+</body>
+</html>
